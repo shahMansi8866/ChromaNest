@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Art Gallery</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+header {
+  background: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #eee;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color: #f39c12;
+}
+
+/* ===== Hero Section (Box Style) ===== */
+.hero {
+  background: url('assets/images/gallery-bg.jpg') no-repeat center/cover;
+  padding: 60px 30px;
+  margin: 40px auto;
+  max-width: 900px;   /* keeps it centered like a box */
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(3, 149, 246, 0.758); /* shadow box */
+}
+
+/* Hero Heading */
+.hero h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #f39c12;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+
+/* Hero Paragraph */
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
+
+/* Button Style */
+.btn {
+  background: #f39c12;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.btn:hover {
+  background: #d35400;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  transform: translateY(-3px);
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎨 Virtual Art Gallery</h1>
+    <nav>
+        <a href="virtual_art_gallary.html">Home</a>
+    </nav>
+
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Art Space</h2>
+    <p>Explore creativity, design, and imagination.</p>
+
+    <a href="gallery.html" class="btn">Enter Gallery</a>
+
+  </section>
+
+  
+</body>
+</html>
